@@ -1,0 +1,7 @@
+n1 = str(input('\033[1;97mDigite um nome completo:\033[m'))
+ma = n1.upper()
+m = n1.lower()
+s = n1.split()
+s1 = len(''.join(s))
+s2=len(s[0])
+print('\033[4;37m{} \n{} \n\033[mEste nome possui \033[4;37m{}\033[m letras \nO primeiro nome possui \033[4;37m{}\033[m letras'.format(ma,m,s1,s2))
